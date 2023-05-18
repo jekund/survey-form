@@ -1,1 +1,2 @@
 # survey-form
+I originally created this at freecodecamp.org but copied it here to make it easier to find. The submit button currently doesn't do anything but I'm hoping to give it functionality in the near future.
