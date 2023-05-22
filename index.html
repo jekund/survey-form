@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="eng">
+<html lang="en">
 <head>
   <link rel="stylesheet" href="styles.css">
-  <meta charset="UTF-8"
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Survey Form</title>
 </head>
@@ -29,17 +29,17 @@
     <!-- second section -->
     <fieldset>
       <label for='number' id='number-label'>Rate My Work From 1-10: <input id='number' type='number' min='1' max='11' placeholder='10'/></label>
-      <label for 'content'>How do you feel about the presentation of content?<br>
+      <label for='content'>How do you feel about the presentation of content?<br>
         <input id='content' type='radio' name='choice' value='1'>Great</input>
         <input id='content' type='radio' name='choice' value='2'>Needs Some Work</input>
         <input id='content' type='radio' name='choice' value='3'>Needs A Lot Of Work</input>
       </label>
-      <label for 'clean'>How do you feel about the cleanliness of the code?<br>
+      <label for='clean'>How do you feel about the cleanliness of the code?<br>
         <input id='clean' type='radio' name='choice2' value='1'>Clean</input>
         <input id='clean' type='radio' name='choice2' value='2'>Needs Some Work</input>
         <input id='clean' type='radio' name='choice2' value='3'>Messy</input>
       </label>
-      <label for 'additional'>Are there any things I should work on?<br>
+      <label for='additional'>Are there any things I should work on?<br>
         <input id='additional' type='checkbox' value='1'>Create More Projects</input>
         <input id='additional' type='checkbox' value='2'>Learn Another Language</input>
     </fieldset>
@@ -48,6 +48,7 @@
       <label for='extra'>Add any additional comments:
         <textarea id='extra' rows='3' cols='30' placeholder='Keep up the great work!'></textarea>
     </fieldset>
+    <!-- submit button -->
     <input type='submit' value='Submit' id='submit'/>
   </form>
 </body>
